@@ -13,3 +13,7 @@ body {
     header, footer, main {
         
         }
+    
+    p {
+        margin-right: 150;
+    }
