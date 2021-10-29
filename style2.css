@@ -3,8 +3,13 @@ body {
     color: rgb(12, 12, 44);
     background-image:white;
     font-family: "Trebuchet MS";
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 150px;
+    margin-bottom: 8px;
+    margin-left: 150px;
 
     } 
     header, footer, main {
-        margin-left:150px;
-        margin-right:150px auto;}
+        
+        }
