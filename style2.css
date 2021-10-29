@@ -1,0 +1,9 @@
+body { 
+    background-color:rgb(248, 245, 229);
+    color: rgb(12, 12, 44);
+    background-image:white;
+    font-family: "Trebuchet MS";
+
+    } 
+    header, footer, main {
+        margin-left:50px;}
