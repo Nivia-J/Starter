@@ -3,9 +3,10 @@ body {
     color: rgb(12, 12, 44);
     background-image:white;
     font-family: "Trebuchet MS";
+    width:100%
     margin: 8px;
     margin-top: 50px;
-    margin-right: 150px auto;
+    margin-right: 150px ;
     margin-bottom: 8px;
     margin-left: 200px;
 
@@ -20,4 +21,7 @@ body {
  {
     margin-left: -200px;
     margin-top: 1px; 
+}
+h4 {
+    color:blueviolet
 }
