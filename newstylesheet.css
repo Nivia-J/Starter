@@ -120,6 +120,10 @@ img {
   .Y2021:hover {
     background-image: url("2021/F0 (1).png") ;
     background-size: 100%;
-    
+  }
 
+  iframe {
+      width: 200%;
+      height: 200%;
+      margin: 0 auto;
   }
