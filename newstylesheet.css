@@ -127,5 +127,6 @@ img {
       width: 800px;
       height: 500px;
       margin: 80px auto;
-      padding:10%
+      padding:10%;
+      border-color: white;
   }
