@@ -1,53 +1,39 @@
 body {
-    margin: auto;
-    align-content: center;
-
+    margin: 0 auto;
+    width: 100%;
 }
 
 header {
-    display:block;
     background-color: #000000;
-    width: 100%;
     height: 90px;
-    margin: auto;
-    padding-left: 5%;
+    margin: 0 auto;
 }
 
 img {
     padding-top: 20px;
     padding-left: 0px;
-    margin:auto;
-}
-h2 {
-    color: rgb(255, 255, 255);
-    font-family: Copperplatea;
-    padding:20px;
-    margin:0px;
 }
 
+
 nav {
-    align-items:stretch ;
-    display:block;
     background-color: rgb(31, 31, 31);
-    margin: auto;
-    padding: 0;
-    padding-left: 8%;;
+    margin: 0 auto;
+    display:block;
+
+
 }
 nav a{
     display: inline-block;
-    width:fit-content;
     color: #969696;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    border-width: 5px ,5px ,5px ,5px;
     border-color: rgb(63, 14, 14);
     font-family: helvetica;
-    margin-right: 5px;
+    margin: auto;
     background-color: rgb(31, 31, 31);
 }
 
-  /* Change the link color to #111 (black) on hover */
 nav a:hover {
     background-color: #ffcc23;
     color: black;
@@ -55,12 +41,11 @@ nav a:hover {
   }
 
 nav a:visited {
-    color: #eb4049;
+    color: #7c6465;
     text-decoration: none;
 }
 
 footer {
-    display:block;
     background-color: black;
     width: 100%;
     
@@ -77,24 +62,23 @@ H6 {
 }
 
 #selfie {
-    padding:50px;
-    margin:50px;
-    align-items: center;
-    text-align: center;
+
 }
 
 #intro {
-    display: inline;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
 
 }
 section {
-    margin-left:100px;
-    margin-top: 50px;
+    margin:auto;
     margin-bottom: 50px;
     display: inline-block;
     align-items: center;
     height:200px;
-    width:45%
+    width:45%;
+    padding:10%;
 
 }
  
@@ -114,9 +98,14 @@ img {
 
   main {
       align-content: center;
-      margin:auto;
+      margin:0 auto;
       padding-left:10%;
       padding-right: 10%;
       padding-top: 45px;
       font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p {
+      padding-left: 20%;
+      padding-right: 20%;
   }
