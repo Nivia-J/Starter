@@ -9,12 +9,6 @@ header {
     margin: 0 auto;
 }
 
-img {
-    padding-top: 20px;
-    padding-left: 0px;
-}
-
-
 nav {
     background-color: rgb(31, 31, 31);
     margin: 0 auto;
@@ -157,7 +151,6 @@ img {
     grid-template-columns: 40px 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-column-gap: 0px;
     gap: 0;
-    grid-auto-rows: auto;
 
   }
   
@@ -167,10 +160,9 @@ img {
   }
 
   .chota {
-      font-size: 10px;
-      text-align: left;
-      padding-top: 24px;
+      font-size: 8px;
+      text-align: right;
       font-family: arial;
       color: rgb(82, 83, 83);
-    
+      padding-top:15% ;
   }
