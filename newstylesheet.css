@@ -130,3 +130,47 @@ img {
       padding:10%;
       border-color: white;
   }
+
+  .figure {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+}
+.figure img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.figure:hover img.image-hover {
+  opacity: 1;
+}
+
+.wrapper {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 40px 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-column-gap: 0px;
+    gap: 0;
+    grid-auto-rows: auto;
+
+  }
+  
+  .wrapper > div img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .chota {
+      font-size: 10px;
+      text-align: left;
+      padding-top: 24px;
+      font-family: arial;
+      color: rgb(82, 83, 83);
+    
+  }
